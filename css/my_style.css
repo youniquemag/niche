@@ -102,7 +102,7 @@ background-color:#4CAF50;
 
 .article {
 	color: white;
-	background-color: #ea0a06;
+	background-color: #cc0400;
 	padding-top: 4%;
 	padding-bottom: 8%;
 	padding-left: 10%;
@@ -111,7 +111,7 @@ background-color:#4CAF50;
 }
 .article-cover {
 	color: white;
-	background-color: rgb(23, 24, 25);
+	background-color: black;
 	padding-bottom: 6%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -142,7 +142,7 @@ background-color:#4CAF50;
 
 .auth-table {
 	border: none;
-	background-color: rgb(0,20,85);
+	background-color: #cc0400;
 	color: white;
 	padding-top: 10px;
 	margin: 0 0 0 0;
@@ -164,7 +164,7 @@ background-color:#4CAF50;
 }
 .cont-table {
 	border: none;
-	background-color: #ea0a06;
+	background-color: #cc0400;
 	color: white;
 	margin: 0 0 0 0;
 	width: 100%;
@@ -177,7 +177,7 @@ background-color:#4CAF50;
 	color: white;
 }
 .ifrm {
-	border-color: #ea0a06;
+	border-color: #cc0400;
 	border-style: solid;
 	border-width: 2em;
 	position: relative;
