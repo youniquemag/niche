@@ -2,23 +2,25 @@ header {
 }
 
 body {
-	background-color: black;
+	background-color: white;
+		font-family: 'Courgette', cursive !important;
+}
+main{
+	font-family: 'Courgette', cursive !important;
 }
 .logo {
 	display: inline-block;
 }
 .top-bar {
 
-	background-color: rgb(95,95,95);
+	background-color: white;
 	width: 100%;
 	padding-left: 0%;
 	padding-right: 3%;
-	padding-bottom: 1%;
-	padding-top: 2%
 }
 .ymg {
 	padding-left: 5%;
-	font-family: 'Gamja Flower', cursive;
+  font-family: 'Courgette', cursive !important;
 	color: black;
 	font-size: 2em;
 }
@@ -33,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     border-top-style: solid;
     border-top-color: black;
     border-bottom-style: solid;
@@ -100,12 +102,12 @@ background-color:#4CAF50;
 
 .article {
 	color: white;
-	background-color: rgb(0,20,85);
+	background-color: #ea0a06;
 	padding-top: 4%;
 	padding-bottom: 8%;
 	padding-left: 10%;
 	padding-right: 10%;
-	
+
 }
 .article-cover {
 	color: white;
@@ -113,15 +115,17 @@ background-color:#4CAF50;
 	padding-bottom: 6%;
 	padding-left: 10%;
 	padding-right: 10%;
-	
+
 }
 .article-cover img {
 	width: 95%;
-	height: auto; 
+	height: auto;
 	background-color: rgb(23, 24, 25);
 }
 .spiral {
 	max-height: 950px;
+	padding-bottom: 35px;
+
 	padding-top: 0%;
 	float: left;
 }
@@ -160,29 +164,29 @@ background-color:#4CAF50;
 }
 .cont-table {
 	border: none;
-	background-color: rgb(0,20,85);
+	background-color: #ea0a06;
 	color: white;
 	margin: 0 0 0 0;
 	width: 100%;
 	height: 100%;
-    font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive;
 }
 .cont-table td {
 	padding-left: 2%;
 	padding-right: 2%;
-	color: rgb(220, 222, 226);
+	color: white;
 }
 .ifrm {
-	border-color: rgb(0,20,85);
+	border-color: #ea0a06;
 	border-style: solid;
 	border-width: 2em;
 	position: relative;
 	margin-top: 5%
 	padding-top: 8%;
-    height: 0;
-    overflow: hidden;
-    background-color: rgb(0,20,85);
-    color: white;
+  height: 0;
+	overflow: hidden;
+  background-color:#ea0a06;
+  color: white;
 }
 
 .next {
@@ -202,7 +206,7 @@ iframe {
 	display: inline-block;
 	position: relative;
 	border: none;
-	overflow-x: hidden;
+	overflow-x: scroll;
 	overflow-y: scroll;
 	color: white;
 }
@@ -229,19 +233,25 @@ iframe {
 	padding-left: 2%;
 }
 
+.container{
+	margin-bottom: 20px;
+}
+.insideNiche{
+
+}
+
 footer {
-	padding-top: 10px;
+	margin-top: 20px;
+	padding-top: 20px;
 	padding-left: 2%;
 	padding-right: 2%;
 	background-color: black;
 	color: white;
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top-color: grey;
-	bottom: 0;
-	left: 0;
 	position: fixed;
-	width: 100%; 
+	width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 footer table {
@@ -250,6 +260,13 @@ footer table {
 }
 
 footer table tr td img {
-	max-height: 35px; 
+	max-height: 35px;
 	padding-left: 3%;
+}
+footer a{
+	color: white;
+}
+.wrapNiche{
+	padding-bottom: 90px;
+	margin-bottom: -90px;
 }
