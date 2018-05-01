@@ -9,38 +9,50 @@ main{
 	font-family: 'Courgette', cursive !important;
 }
 .logo {
-	display: inline-block;
+	max-width: 300px;
+	width: 30%
+
 }
 .top-bar {
-
+	word-wrap: break-word;
 	background-color: white;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
 	padding-left: 0%;
-	padding-right: 3%;
+	padding-right: 0%;
+	text-align: center;
+	width: 100%;
 }
-.ymg {
-	padding-left: 5%;
-  font-family: 'Courgette', cursive !important;
-	color: black;
-	font-size: 2em;
+
+.topbar li {
+	text-align: center;
+	list-style: none;
 }
-.ymg img {
+.top-bar li ul {
 	display: inline-block;
-	max-height: 100px;
-	max-width: auto;
-	padding-left: 5%;
 }
+
+.top-bar li ul a img {
+	max-width: 320px;
+	width: 100%;
+}
+
+.ymg {
+    font-family: 'Courgette', cursive !important;
+	color: black;
+	font-size: 100%;
+}
+
 .pages {
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-    border-top-style: solid;
-    border-top-color: black;
-    border-bottom-style: solid;
-    border-bottom-color: black;
     text-align: center;
+    box-shadow: 0px 5px 2px #473939;
 }
 
 .pages li {
@@ -161,10 +173,6 @@ background-color:#4CAF50;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	font-family: 'Courgette', cursive;
-
-	border-bottom-style: solid;
-	border-bottom-color: white;
-	border-bottom-width: 1px;
 }
 .auth-table tr th {
 	padding-top: 20px;
@@ -195,15 +203,20 @@ background-color:#4CAF50;
 }
 .ifrm {
 	border-color: #cc0400;
-	border-style: solid;
-	border-width: 2em;
 	position: relative;
 	margin-top: 5%
 	padding-top: 8%;
     height: 100%;
 	overflow: hidden;
-    background-color:#ea0a06;
+    background-color:#cc0400;
     color: white;
+}
+
+.ed-note p {
+	font-family: 'Atma', cursive;
+	text-align: center;
+	font-size: 1em;
+	color: white;
 }
 
 .next {
@@ -260,16 +273,12 @@ iframe {
 }
 
 footer {
-	margin-top: 20px;
-    padding-top: 20px;
-	padding-left: 2%;
-	padding-right: 2%;
+    padding-top: 1%;
 	background-color: black;
 	color: white;
 	position: fixed;
 	width: 100%;
 	bottom: 0;
-	right: 0;
 	left: 0;
 }
 
