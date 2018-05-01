@@ -118,8 +118,8 @@ background-color:#4CAF50;
 	background-color: #cc0400;
 	padding-top: 4%;
 	padding-bottom: 8%;
-	padding-left: 18%;
-	padding-right: 2%;
+	padding-left: 12%;
+	padding-right: 4%;
 
 }
 .article-cover {
@@ -137,7 +137,7 @@ background-color:#4CAF50;
 }
 .spiral {
 	max-height: 950px;
-	padding-bottom: 35px;
+	padding-bottom: 2.5em;
 
 	padding-top: 0%;
 	float: left;
@@ -274,7 +274,7 @@ iframe {
 }
 
 footer {
-    padding-top: 1%;
+  padding-top: 1%;
 	background-color: black;
 	color: white;
 	position: fixed;
@@ -291,13 +291,13 @@ footer table {
 footer table tr td img {
 	max-height: 35px;
 	padding-left: 3%;
+	font-size: 1em;
 }
 footer a{
 	color: white;
 }
 .wrapNiche{
-	padding-bottom: 90px;
-	margin-bottom: -90px;
+	padding-bottom: 3em;
+	margin-bottom: 3em;
 
 }
-
