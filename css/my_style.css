@@ -8,13 +8,8 @@ body {
 main{
 	font-family: 'Courgette', cursive !important;
 }
-.logo {
-	max-width: 300px;
-	width: 30%
 
-}
 .top-bar {
-	word-wrap: break-word;
 	background-color: white;
 	max-width: 100%;
 	height: auto;
@@ -23,17 +18,21 @@ main{
 	padding-right: 0%;
 	text-align: center;
 	width: 100%;
+	margin-right: 0px;
 }
 
-.topbar li {
+.topbar ul {
 	text-align: center;
 	list-style: none;
 }
-.top-bar li ul {
+.top-bar ul li {
 	display: inline-block;
 }
 
-.top-bar li ul a img {
+.top-bar ul li a {
+	min-width: 72px;
+}
+.top-bar ul li a img {
 	max-width: 320px;
 	width: 100%;
 }
@@ -43,6 +42,8 @@ main{
 	color: black;
 	font-size: 100%;
 }
+
+
 
 .pages {
     list-style-type: none;
@@ -55,9 +56,9 @@ main{
     box-shadow: 0px 5px 2px #473939;
 }
 
+
 .pages li {
     float: left;
-    padding-left: 0.7%;
 }
 
 .pages li a {
@@ -117,16 +118,16 @@ background-color:#4CAF50;
 	background-color: #cc0400;
 	padding-top: 4%;
 	padding-bottom: 8%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 18%;
+	padding-right: 2%;
 
 }
 .article-cover {
 	color: white;
 	background-color: black;
-	padding-bottom: 6%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-bottom: 8%;
+	padding-left: 18%;
+	padding-right: 2%;
 
 }
 .article-cover img {
@@ -299,3 +300,4 @@ footer a{
 	margin-bottom: -90px;
 
 }
+
