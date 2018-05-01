@@ -133,6 +133,8 @@ background-color:#4CAF50;
 .content {
 	padding-bottom: 0%;
 }
+
+}
 .content-heading {
 	text-align: center;
 	font-weight: bold;
@@ -150,10 +152,19 @@ background-color:#4CAF50;
 	height: 100%;
 	text-align: center;
 }
+
+.auth-table tr {
+}
 .auth-table tr td {
 	padding-top: 20px;
-	padding-left: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 	font-family: 'Courgette', cursive;
+
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
 }
 .auth-table tr th {
 	padding-top: 20px;
@@ -169,12 +180,18 @@ background-color:#4CAF50;
 	margin: 0 0 0 0;
 	width: 100%;
 	height: 100%;
-  font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive;
 }
 .cont-table td {
 	padding-left: 2%;
 	padding-right: 2%;
 	color: white;
+}
+
+.cont-table td a {
+	color: white;
+	font-family: 'Courgette', cursive;
+	text-decoration: none;
 }
 .ifrm {
 	border-color: #cc0400;
@@ -183,10 +200,10 @@ background-color:#4CAF50;
 	position: relative;
 	margin-top: 5%
 	padding-top: 8%;
-  height: 0;
+    height: 100%;
 	overflow: hidden;
-  background-color:#ea0a06;
-  color: white;
+    background-color:#ea0a06;
+    color: white;
 }
 
 .next {
@@ -213,8 +230,9 @@ iframe {
 
 .articles1 {
 	text-align: justify;
-	background-color: rgb(0,20,85);
+	background-color: #cc0400;
 	color: white;
+	height: 100%;
 	font-family: 'Kalam', cursive;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -224,8 +242,9 @@ iframe {
 
 .articles2 {
 	text-align: justify;
-	background-color: rgb(0,20,85);
+	background-color: #cc0400;
 	color: white;
+	height: 95%;
 	font-family: 'Atma', cursive;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -242,16 +261,16 @@ iframe {
 
 footer {
 	margin-top: 20px;
-	padding-top: 20px;
+    padding-top: 20px;
 	padding-left: 2%;
 	padding-right: 2%;
 	background-color: black;
 	color: white;
 	position: fixed;
 	width: 100%;
-  bottom: 0;
-  right: 0;
-  left: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 footer table {
@@ -269,4 +288,5 @@ footer a{
 .wrapNiche{
 	padding-bottom: 90px;
 	margin-bottom: -90px;
+
 }
