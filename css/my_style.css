@@ -3,14 +3,14 @@ header {
 
 body {
 	background-color: white;
-		font-family: 'Courgette', cursive !important;
+	font-family: 'Courgette', cursive !important;
 }
 main{
 	font-family: 'Courgette', cursive !important;
 }
 
 .top-bar {
-	background-color: white;
+	background-color: #bd8621;
 	max-width: 100%;
 	height: auto;
 	overflow: hidden;
@@ -115,7 +115,8 @@ background-color:#4CAF50;
 
 .article {
 	color: white;
-	background-color: #cc0400;
+	background-color: #2f1f02;
+	margin-left: 1%;
 	padding-top: 4%;
 	padding-bottom: 8%;
 	padding-left: 12%;
@@ -145,6 +146,7 @@ background-color:#4CAF50;
 
 .content {
 	padding-bottom: 0%;
+	background-color: #f1f1f1;
 }
 
 }
@@ -157,7 +159,7 @@ background-color:#4CAF50;
 
 .auth-table {
 	border: none;
-	background-color: #cc0400;
+	background-color: #2f1f02;
 	color: white;
 	padding-top: 10px;
 	margin: 0 0 0 0;
@@ -184,7 +186,7 @@ background-color:#4CAF50;
 }
 .cont-table {
 	border: none;
-	background-color: #cc0400;
+	background-color: #2f1f02;
 	color: white;
 	margin: 0 0 0 0;
 	width: 100%;
@@ -203,13 +205,13 @@ background-color:#4CAF50;
 	text-decoration: none;
 }
 .ifrm {
-	border-color: #cc0400;
+	border-color: #2f1f02;
 	position: relative;
 	margin-top: 5%
 	padding-top: 8%;
     height: 100%;
 	overflow: hidden;
-    background-color:#cc0400;
+    background-color:#2f1f02;
     color: white;
 }
 
@@ -244,7 +246,7 @@ iframe {
 
 .articles1 {
 	text-align: justify;
-	background-color: #cc0400;
+	background-color: #2f1f02;
 	color: white;
 	height: 100%;
 	font-family: 'Kalam', cursive;
@@ -256,7 +258,7 @@ iframe {
 
 .articles2 {
 	text-align: justify;
-	background-color: #cc0400;
+	background-color: #2f1f02;
 	color: white;
 	height: 95%;
 	font-family: 'Atma', cursive;
@@ -270,7 +272,7 @@ iframe {
 	margin-bottom: 20px;
 }
 .insideNiche{
-
+	background-color: #f7f7ef;
 }
 
 footer {
@@ -299,5 +301,5 @@ footer a{
 .wrapNiche{
 	padding-bottom: 3em;
 	margin-bottom: 3em;
-
+	background-color: #f1f1f1;
 }
