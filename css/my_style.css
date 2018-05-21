@@ -3,14 +3,15 @@ header {
 
 body {
 	background-color: white;
-	font-family: 'Courgette', cursive !important;
+	background-image: url("../images/bg.jpg");
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
 }
 main{
 	font-family: 'Courgette', cursive !important;
 }
 
 .top-bar {
-	background-color: #bd8621;
+	background-color: #e8e4daf2;
 	max-width: 100%;
 	height: auto;
 	overflow: hidden;
@@ -19,6 +20,7 @@ main{
 	text-align: center;
 	width: 100%;
 	margin-right: 0px;
+	text-shadow: 0px 2px 2px #f3ecec;
 }
 
 .topbar ul {
@@ -114,16 +116,17 @@ background-color:#4CAF50;
 }
 
 .article {
-	color: white;
-	background-color: #2f1f02;
+	color: #0a124a;
+	background-color: #eae5dbfa;
 	margin-left: 1%;
 	padding-top: 4%;
-	padding-left: 15%;
+	padding-left: 5%;
 	padding-right: 4%;
+	width: 90%;
 
 }
 .article-cover {
-	color: white;
+	color: #0a124a;
 	background-color: black;
 	padding-bottom: 8%;
 	padding-left: 18%;
@@ -159,8 +162,8 @@ background-color:#4CAF50;
 
 .auth-table {
 	border: none;
-	background-color: #2f1f02;
-	color: white;
+	background-color: #eae5dbfa;
+	color: #0a124a;
 	padding-top: 10px;
 	margin: 0 0 0 0;
 	width: 100%;
@@ -186,8 +189,8 @@ background-color:#4CAF50;
 }
 .cont-table {
 	border: none;
-	background-color: #2f1f02;
-	color: white;
+	background-color: #eae5dbfa;
+	color: #0a124a;
 	margin: 0 0 0 0;
 	width: 100%;
 	height: 100%;
@@ -196,30 +199,30 @@ background-color:#4CAF50;
 .cont-table td {
 	padding-left: 2%;
 	padding-right: 2%;
-	color: white;
+	color: #0a124a;
 }
 
 .cont-table td a {
-	color: white;
+	color: #0a124a;
 	font-family: 'Courgette', cursive;
 	text-decoration: none;
 }
 .ifrm {
-	border-color: #2f1f02;
+	border-color: #eae5dbfa;
 	position: relative;
 	margin-top: 5%
 	padding-top: 8%;
     height: 100%;
 	overflow: hidden;
-    background-color:#2f1f02;
-    color: white;
+    background-color:#eae5dbfa;
+    color: #0a124a;
 }
 
 .ed-note p {
 	font-family: 'Atma', cursive;
 	text-align: center;
 	font-size: 1em;
-	color: white;
+	color: #0a124a;
 }
 
 .next {
@@ -241,13 +244,13 @@ iframe {
 	border: none;
 	overflow-x: scroll;
 	overflow-y: scroll;
-	color: white;
+	color: #0a124a;
 }
 
 .articles1 {
 	text-align: justify;
-	background-color: #2f1f02;
-	color: white;
+	background-color: #eae5dbfa;
+	color: #0a124a;
 	height: 100%;
 	font-family: 'Kalam', cursive;
 	padding-top: 2%;
@@ -258,8 +261,8 @@ iframe {
 
 .articles2 {
 	text-align: justify;
-	background-color: #2f1f02;
-	color: white;
+	background-color: #eae5dbfa;
+	color: #0a124a;
 	height: 95%;
 	font-family: 'Atma', cursive;
 	padding-top: 2%;
@@ -272,7 +275,8 @@ iframe {
 	margin-bottom: 20px;
 }
 .insideNiche{
-	background-color: #f7f7ef;
+	/*background-color: #f7f7ef;*/
+	padding-bottom: 5%;
 }
 .wrapNiche{
 	padding-bottom: 3em;
@@ -294,8 +298,8 @@ footer table {
 	width: 100%;
 	text-align: center;
 }
-
-footer table tr td img {
+/
+footer table tr td a img {
 	max-height: 35px;
 	padding-left: 3%;
 	font-size: 1em;
